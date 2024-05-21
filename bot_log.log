@@ -1,0 +1,116 @@
+2024-02-28 14:01:22,332 - INFO - GeoLoca ('Mike', None): (53.731303, 91.444035)
+2024-02-28 14:03:08,413 - ERROR - Infinity polling: polling exited
+2024-02-28 14:03:08,413 - ERROR - Break infinity polling
+2024-03-02 07:03:56,372 - ERROR - Infinity polling: polling exited
+2024-03-02 07:03:56,372 - ERROR - Break infinity polling
+2024-03-02 08:04:24,368 - INFO - GeoLoca ('Mike', None): (53.733194, 91.441361)
+2024-03-02 08:08:40,048 - ERROR - Infinity polling: polling exited
+2024-03-02 08:08:40,048 - ERROR - Break infinity polling
+2024-03-02 08:34:59,512 - ERROR - Infinity polling: polling exited
+2024-03-02 08:34:59,512 - ERROR - Break infinity polling
+2024-03-02 08:36:29,013 - ERROR - Infinity polling: polling exited
+2024-03-02 08:36:29,016 - ERROR - Break infinity polling
+2024-03-02 08:38:43,674 - ERROR - Infinity polling: polling exited
+2024-03-02 08:38:43,674 - ERROR - Break infinity polling
+2024-03-02 09:11:28,541 - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'rock'
+2024-03-02 09:11:28,541 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1016, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject2023\Test_2 sinergy bioinf\Sin_TG_bot\main task 5 only wether.py", line 227, in callback_query
+    if random.randint(0,4) == int(call.data):
+ValueError: invalid literal for int() with base 10: 'rock'
+
+2024-03-02 09:11:43,576 - ERROR - Infinity polling: polling exited
+2024-03-02 09:11:43,576 - ERROR - Break infinity polling
+2024-03-02 09:18:52,030 - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'paper'
+2024-03-02 09:18:52,031 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1016, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject2023\Test_2 sinergy bioinf\Sin_TG_bot\main task 5 only wether.py", line 227, in callback_query
+    if random.randint(0,4) == int(call.data):
+ValueError: invalid literal for int() with base 10: 'paper'
+
+2024-03-02 09:19:01,058 - ERROR - Infinity polling: polling exited
+2024-03-02 09:19:01,058 - ERROR - Break infinity polling
+2024-03-02 09:27:26,687 - INFO - Message from None: /game2
+2024-03-02 09:27:32,700 - ERROR - Infinity polling: polling exited
+2024-03-02 09:27:32,700 - ERROR - Break infinity polling
+2024-03-02 09:28:16,524 - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'rock'
+2024-03-02 09:28:16,524 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1016, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject2023\Test_2 sinergy bioinf\Sin_TG_bot\main task 5 only wether.py", line 227, in callback_query
+    if random.randint(0,4) == int(call.data):
+ValueError: invalid literal for int() with base 10: 'rock'
+
+2024-03-02 09:28:34,569 - ERROR - Infinity polling: polling exited
+2024-03-02 09:28:34,569 - ERROR - Break infinity polling
+2024-03-02 09:29:08,214 - ERROR - Infinity polling exception: invalid literal for int() with base 10: 'rock'
+2024-03-02 09:29:08,215 - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1016, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1104, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1179, in __threaded_polling
+    raise e
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject\pythonProject2023\lib\site-packages\telebot\__init__.py", line 7860, in _run_middlewares_and_handler
+    result = handler['function'](message)
+  File "C:\Users\siber\PycharmProjects2023\pythonProject2023\Test_2 sinergy bioinf\Sin_TG_bot\main task 5 only wether.py", line 227, in callback_query
+    if random.randint(0,4) == int(call.data):
+ValueError: invalid literal for int() with base 10: 'rock'
+
+2024-03-02 09:29:20,253 - ERROR - Infinity polling: polling exited
+2024-03-02 09:29:20,253 - ERROR - Break infinity polling
+2024-03-02 09:35:01,184 - ERROR - Infinity polling: polling exited
+2024-03-02 09:35:01,184 - ERROR - Break infinity polling
+2024-03-02 09:52:38,262 - INFO - GeoLoca ('Anna', 'Ane4kaNov'): (53.731279, 91.44395)
+2024-03-02 10:01:25,861 - ERROR - Infinity polling: polling exited
+2024-03-02 10:01:25,861 - ERROR - Break infinity polling
+2024-03-05 22:44:38,122 - ERROR - Infinity polling: polling exited
+2024-03-05 22:44:38,122 - ERROR - Break infinity polling
